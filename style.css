@@ -8,12 +8,10 @@ body{
     width: 960;
     height: 650px;
     padding: 5px;
-    background: blue;
 }
 .logo{
     width: 100%;
     float: left;
-    background: red;
 }
 .logoImg{
     margin-top: 1%;
@@ -22,14 +20,13 @@ body{
 }
 .title{
     float: inherit;
-    margin-left: 20%;
+    margin-left: 10px;
 }
 .left{
     float: left;
     width: 70%;
     height: 70%;
     border-radius: 24px;
-    background: yellow;
 }
 .text-input{
     float: left;
@@ -39,8 +36,8 @@ body{
     height: 80%;
     color: #0A3871;
     font-size: 20px;
-    border: none;
-    outline: none;
+    border-style: solid;
+    border-color: black;
     background: #f3f5fc;
 }
 .right{
@@ -48,48 +45,82 @@ body{
     width: 30%;
     height: auto;
     border-radius: 24px;
-    background: orange;
+
 }
 #imgDercha{
     margin-top: 20%;
     width: 90%;
     height: auto;
     margin-left: 2%;
+
 }
 #texto{
     margin-left: 7%;
     margin-right: 5%;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 #textArea{
     float: left;
     margin-left: 10%;
+    margin-top: 23%;
     color: #0A3871;
     width: 80%;
     height: 60%;
-    border: none;
-    outline: none;
     font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 }
 .left-button{
     float: left;
     width: 70%;
     height: auto;
     border-radius: 24px;
-    background: pink;
+}
+#minusculas{
+    margin-left: 10%;
 }
 #encriptar{
     padding: 24px;
-    width: 30%;
-    height: 60%;
+    width: 13%;
+    height: 40%;
     border-radius: 24px;
     margin-left: 15%;
     background: #0A3871;
 }
 #desencriptar{
     padding: 24px;
-    width: 30%;
-    height: 60%;
+    width: 13%;
+    height: 40%;
     border-radius: 24px;
-    margin-left: 10%;
+    margin-left: 2%;
     background: #D8DFE8;
+}
+#limpiar{
+    padding: 24px;
+    width: 13%;
+    height: 40%;
+    border-radius: 24px;
+    margin-left: 2%;
+    background: #D8DFE8;    
+}
+#pegar{
+    padding: 24px;
+    width: 13%;
+    height: 40%;
+    border-radius: 24px;
+    margin-left: 2%;
+    background: #D8DFE8; 
+}
+#copiar{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 24px;
+    width: 80%;
+    height: 2%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
 }
